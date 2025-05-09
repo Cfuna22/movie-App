@@ -1,0 +1,22 @@
+.nav li {
+    list-style: none;
+    margin: 0 30px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.nav li a:hover {
+    color: var(--primary);
+}
+
+.nav li a:active{
+    color: var(--primary);
+}
